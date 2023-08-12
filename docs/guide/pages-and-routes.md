@@ -529,6 +529,11 @@ Now that we've added in some CSS, we should see our full example working. We can
 
 See the full example in the [examples/02-pages-and-routes](https://github.com/elm-land/elm-land/tree/main/examples/02-pages-and-routes) folder on GitHub.
 
+::: tip "How can I display my local example.png image?"
+In order to display local __images__ you should create an "images" folder at ./static/images/
+In your Elm Land page you can reference the image example.png like so: img [ src "/images/example.png" ] []
+:::
+
 <h3>Nice work!</h3>
 
 You just made a multi-page application in Elm Land! Next up, let's take a look at how we can handle user input by learning "The Elm Architecture".
